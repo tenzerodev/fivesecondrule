@@ -190,7 +190,7 @@ $(document).ready(function() {
           clearInterval(timer);
           $("#startBtn").prop("disabled", false);
           $("#stopBtn").prop("disabled", true);
-          $("#category").css("color", "grey");
+          $("#category").css("color", "#2d2d2d");
         //   recordAnswer();
         }
       }, 1000);
