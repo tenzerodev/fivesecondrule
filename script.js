@@ -178,7 +178,7 @@ $(document).ready(function() {
       ];
       var randomCategory = categories[Math.floor(Math.random() * categories.length)];
       $("#category").text(randomCategory);
-       
+      $("#category").css("color", "#f5f5f7");
     }
   
     function startTimer() {
