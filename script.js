@@ -193,7 +193,7 @@ $(document).ready(function() {
           $("#category").css("color", "#2d2d2d");
         //   recordAnswer();
         }
-      }, 1000);
+      }, 2000);
     }
   
     function recordAnswer() {
